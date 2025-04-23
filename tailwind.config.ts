@@ -6,7 +6,7 @@ export default {
 		"./pages/**/*.{ts,tsx}",
 		"./components/**/*.{ts,tsx}",
 		"./app/**/*.{ts,tsx}",
-		"./src/**/*.{ts,tsx}",
+		"./src/**/*.{ts,tsx}"
 	],
 	prefix: "",
 	theme: {
@@ -61,6 +61,14 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				// Строительные цвета
+				construct: {
+					DEFAULT: '#F97316', // оранжевый
+					dark: '#C2410C', // темно-оранжевый
+					light: '#FFEDD5', // светло-оранжевый
+					gray: '#403E43', // темно-серый
+					lightgray: '#F3F4F6', // светло-серый
 				}
 			},
 			borderRadius: {
