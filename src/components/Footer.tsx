@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { MapPin, Phone, Mail, Clock, Facebook, Instagram, YouTube } from 'lucide-react';
+import { MapPin, Phone, Mail, Clock, Facebook, Instagram, Video } from 'lucide-react';
 
 const Footer = () => {
   return (
@@ -21,7 +21,7 @@ const Footer = () => {
                 <Instagram size={20} />
               </a>
               <a href="https://youtube.com" className="text-gray-300 hover:text-white">
-                <YouTube size={20} />
+                <Video size={20} />
               </a>
             </div>
           </div>
